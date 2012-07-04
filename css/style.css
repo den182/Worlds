@@ -1,0 +1,73 @@
+body {
+
+}
+
+#gameCanv {
+  border:1px solid #ccc;
+}
+
+.game-wrapper {
+  margin:10px auto;
+  width:825px;
+  height:auto;
+}
+
+#new {
+  background: none repeat scroll 0 0 #BBBBBB;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 2px 2px 1px #999999;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: comic Sans MS;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  margin: 20px;
+  position: relative;
+  text-align: center;
+  text-shadow: -1px -1px 0 #AAAAAA;
+  width: 135px;
+  float:left;
+}
+
+#new:active {
+  box-shadow:none;
+  positoin:relative;
+  top:2px;
+  left:2px;
+}
+
+#score {
+  float:right;
+  height:50px;
+  font-size:20px;
+  color:#000;
+  font-family: comic Sans MS;  
+  margin: 20px;   
+  line-height:50px;
+}
+
+#message {
+  color: #FF4444;
+  float: left;
+  font-family: comic Sans MS;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;
+  margin: 20px auto;
+  text-align: center;
+  text-shadow: 2px 2px 3px #222222;
+  width: 550px;
+}
+
+#header {
+  font-family: comic Sans MS;
+  font-size: 25px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-shadow: 0 0 4px #444444;
+  width:825px;
+}
